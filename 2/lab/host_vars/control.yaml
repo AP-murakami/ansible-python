@@ -1,0 +1,21 @@
+cider: xx
+dns: xxx.xxx.xxx.xxx
+firewalls:
+- http
+- https
+- ntp
+gateway: xxx.xxx.xxx.xxx
+hostname: control
+ip: xxx.xxx.xxx.xxx
+packages:
+- httpd
+- php
+- chrony
+services:
+- httpd
+- chrony
+users:
+- comment: WebAdminUser
+  name: webadmin
+- comment: ContentUPLoadUser
+  name: upadmin

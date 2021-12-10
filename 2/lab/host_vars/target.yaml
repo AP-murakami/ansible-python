@@ -1,0 +1,15 @@
+cider: xx
+dns: xxx.xxx.xxx.xxx
+firewalls:
+- mysql
+- ntp
+gateway: xxx.xxx.xxx.xxx
+hostname: target
+ip: xxx.xxx.xxx.xxx
+packages:
+- mariadb
+services:
+- mariadb
+users:
+- comment: DBAdminUser
+  name: dbadmin
